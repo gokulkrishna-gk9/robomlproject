@@ -1,0 +1,13 @@
+﻿venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.env
+.vscode/
+*.log
+*.db
+*.sqlite3
+.venv/
+models/
+*.pth

@@ -1,0 +1,99 @@
+{
+  "total_stocks": 10,
+  "training_period": 7,
+  "validation_period": 1.5,
+  "testing_period": 1.5,
+  "features_per_stock": 12,
+  "sequence_length": 120,
+  "prediction_horizon": 5,
+  "individual_metrics": {
+    "BHARTIARTL.NS": {
+      "RMSE": 253.22784947552668,
+      "MAE": 193.65170288085938,
+      "MAPE": "14.908449",
+      "R2": -0.5869464874267578,
+      "Directional_Accuracy": 20.424836601307188
+    },
+    "HDFCBANK.NS": {
+      "RMSE": 59.99442519674224,
+      "MAE": 48.228858947753906,
+      "MAPE": "6.379451",
+      "R2": 0.16697049140930176,
+      "Directional_Accuracy": 12.826797385620914
+    },
+    "HINDUNILVR.NS": {
+      "RMSE": 227.0881746425824,
+      "MAE": 180.7239227294922,
+      "MAPE": "7.067446",
+      "R2": -0.24653911590576172,
+      "Directional_Accuracy": 10.049019607843137
+    },
+    "ICICIBANK.NS": {
+      "RMSE": 85.45027508275646,
+      "MAE": 72.30533599853516,
+      "MAPE": "6.0375886",
+      "R2": 0.33514904975891113,
+      "Directional_Accuracy": 14.869281045751634
+    },
+    "INFY.NS": {
+      "RMSE": 182.02233079007092,
+      "MAE": 160.0139617919922,
+      "MAPE": "9.606772",
+      "R2": 0.10708600282669067,
+      "Directional_Accuracy": 21.568627450980394
+    },
+    "ITC.NS": {
+      "RMSE": 29.970611418990522,
+      "MAE": 24.943626403808594,
+      "MAPE": "5.7397466",
+      "R2": 0.2671682834625244,
+      "Directional_Accuracy": 14.052287581699346
+    },
+    "KOTAKBANK.NS": {
+      "RMSE": 81.70661657054617,
+      "MAE": 66.6377182006836,
+      "MAPE": "3.7219956",
+      "R2": -0.687058687210083,
+      "Directional_Accuracy": 12.745098039215685
+    },
+    "LT.NS": {
+      "RMSE": 457.0813145655814,
+      "MAE": 429.1452941894531,
+      "MAPE": "11.99051",
+      "R2": -10.314369201660156,
+      "Directional_Accuracy": 15.441176470588236
+    },
+    "RELIANCE.NS": {
+      "RMSE": 140.97861789337063,
+      "MAE": 117.6972427368164,
+      "MAPE": "8.537077",
+      "R2": -1.5888969898223877,
+      "Directional_Accuracy": 13.970588235294118
+    },
+    "TCS.NS": {
+      "RMSE": 528.4809303560536,
+      "MAE": 488.4826965332031,
+      "MAPE": "12.17321",
+      "R2": -4.064421653747559,
+      "Directional_Accuracy": 18.790849673202615
+    }
+  },
+  "aggregate_stats": {
+    "mean_rmse": 204.6001145992221,
+    "std_rmse": 160.24329148621712,
+    "mean_mae": 178.18303604125975,
+    "std_mae": 150.83937371738625,
+    "mean_mape": "8.616224",
+    "std_mape": "3.3301098",
+    "mean_r2": -1.6611858308315277,
+    "std_r2": 3.145398752066429,
+    "mean_dir_acc": 15.473856209150327,
+    "std_dir_acc": 3.481235897604526
+  },
+  "best_performers": {
+    "best_r2": "ICICIBANK.NS",
+    "best_mape": "KOTAKBANK.NS",
+    "best_dir_acc": "INFY.NS"
+  },
+  "high_confidence_stocks": []
+}
